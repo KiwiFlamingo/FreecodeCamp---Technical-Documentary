@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>HTML Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#what_you_should_already_know">What you should already know</a></li>
+        <li><a class="nav-link" href="#important_tags">Important Tags</a></li>
+        <li><a class="nav-link" href="#hello_world">Hello World</a></li>
+        <li><a class="nav-link" href="#adding_style">Adding Style</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <p> HTML stands for <strong>HyperText Markup Language (HTML)</strong> and it is a standard computer languaged used to structure and create websites. A markup language means it requires tags to communicate on what to display. You may add styling to the site with CSS, and interactivity to the site with JavaScript.</p>
+        <p>When using this language, it is best to remember tags and its attributes - while they are not case sensitive - are best to write in lowercase for effective coding. Some tags may not need a closing tag so it is convinient for you to memorize which tags do and dont close. While placing tags inside tags, remember to follow nesting rules: <strong><em>"Close tags in the reversed order they were opened."</em></strong></p>
+      </section>
+      <section class="main-section" id="what_you_should_already_know">
+        <header>What you should already know</header>
+        <ul class="understanding">
+          <li class="title"><h3>Basic Computer Knowledge</h3></li>
+          <li><p>You will need to know how to save files such as the HTML files. You must also know how to use a computer to see how sites work.</p></li>
+
+          <li class="title"><h3>Basic Web Browser Knowledge</h3></li>
+          <li><p>Knowing how to use browswer developer tools in Google Chrome, or Safari can be useful to find what will work in your own HTML site.</p></li>
+
+          <li class="title"><h3>Basic Internet Concepts</h3></li>
+          <li>Understanding these and more are helpful:
+            <ul>
+              <li>Websites: Websites are used for sharing information, entertainment, and communication.</li>
+              <li>URLs: The "Adress" used to identify and access a specific resource from the internet.</li>
+              <li>HTML: HyperText Markup Language</li>
+              <li>CSS: Cascading Style Sheets</li>
+              <li>JavaScript: High-level dynamic programind language for interactivity an dynamic content.</li>
+            </ul>
+          </li>
+
+          <li class="title"><h3>File Formats/Extentions</h3></li>
+          <li><p>You must understand the meaning of file extensions and their purposes:(ex.)</p>
+              <ul>
+                <li>.html : HTML files.</li>
+                <li>.css : for stylesheets.</li>
+                <li>.js : for JavaScript files.</li>
+              </ul>
+          </li>
+
+          <li><h3>Patience and Persistence</h3></li>
+          <li>You will often run into many problems problems while coding. Remaining patient and knowing when to take a step back will help you in being persistent in your code.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="important_tags">
+        <header>Important Tags</header>
+        <ul class="important-tags">
+        <li class="title"><p><strong><code>&lt;html&gt;</code></strong>: Defines an HTML document.</p></li>
+        <li class="title"><p><strong><code>&lt;head&gt;</code></strong>: Contains information about your HTML document. It will make it easier to find. It is also good for connecting separate styling and interactive files.</p></li>
+        <li class="title"><p><strong><code>&lt;body&gt;</code></strong>: Contains the content of the document.</p></li>
+        <li class="title"><p><strong><code>&lt;!DOCTYPE html&gt;</code></strong>: Tells browsers which version of HTML the document is written in (HTML5).</p></li>
+    </ul>
+      </section>
+      <section class="main-section" id="hello_world">
+        <header>Hello World</header>
+        <p>Here are some example codes of headers!</p>
+        <h1><code>&lt;h1&gt; Hello World &lt;/h1&gt;</code></h1>
+        <h2><code>&lt;h2&gt; Hello World &lt;/h2&gt;</code></h2>
+        <h3><code>&lt;h3&gt; Hello World &lt;/h3&gt;</code></h3>
+        <h4><code>&lt;h4&gt; Hello World &lt;/h4&gt;</code></h4>
+        <h5><code>&lt;h5&gt; Hello World &lt;/h5&gt;</code></h5>
+        <h6><code>&lt;h6&gt; Hello World &lt;/h6&gt;</code></h6>
+        <p>There are plenty of ways to organize your HTML document.</p>
+      </section>
+      <section class="main-section" id="adding_style">
+        <header>Adding Style</header>
+        <p>Once you begin to memorize most of the HTML codes, you will want to start learning how to style your website.</p>
+        <p>There are three ways of adding style to your HTML document. <br> 
+        <strong>1) Inline.</strong> Styling inline means styling inside the HTML tags. This is how it will look like: . While it may look nice, it might not be as effective if you want all of the same tags to have the same look. <br>
+        <strong>2) Internal.</strong> Styling internal means styling inside of the head tag like this: . While it may look pretty, it is still not the best way to go as you miss out on cooler styling features. It may also not be ideal for website with many pages if you would like to reuse the style. <br>
+        <strong>3) External.</strong> You can create a seperate file ending with ".css". It leaves your HTML free from exessive code, and allows your style to be reused through the rest of your website. </p>
+      </section>
+    </main>
+  </body>
+</html>
